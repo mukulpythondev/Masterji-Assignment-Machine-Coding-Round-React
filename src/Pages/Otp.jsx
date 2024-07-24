@@ -54,7 +54,7 @@ const Otp = () => {
   };
 
   return (
-    <div className="flex bg-[#3F72AF] pt-10 relative flex-col items-center w-screen gap-y-10">
+    <div className="flex h-screen bg-[#3F72AF] pt-10 relative flex-col items-center w-screen gap-y-10">
       <h1 className="text-5xl text-white text-center font-semibold">Chai aur Code</h1>
       <form className="bg-white flex flex-col items-center gap-y-3 text-center w-5/12 rounded-xl py-2" action="">
         <h3 className="text-2xl font-bold">Mobile Phone Verification</h3>

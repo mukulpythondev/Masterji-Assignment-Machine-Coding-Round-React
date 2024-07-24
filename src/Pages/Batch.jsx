@@ -132,7 +132,7 @@ const Batch = () => {
                 <td className="px-4 py-2 border-r border-gray-300">{batch.endDate}</td>
                 <td className="px-4 py-2 border-r border-gray-300">{batch.price}</td>
                 <td className="px-4 py-2 border-r border-gray-300">{batch.validity}</td>
-                <td className="px-4 py-2 border-r border-gray-300">{batch.status}</td>
+                <td className='px-4 py-1 border-r  border-gray-300'> <span className={` rounded-md px-2 py-1 text-sm ${batch.status.toLowerCase()==="published"?"bg-green-200 border border-green-400 " :"bg-gray-100 border border-gray-400 "} `} >{batch.status}</span> </td>
               </tr>
             ))}
           </tbody>
